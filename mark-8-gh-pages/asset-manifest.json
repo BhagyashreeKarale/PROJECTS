@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "https://bhagyashreekarale.github.io/csb-vly1r/static/css/main.4e2da532.chunk.css",
+    "main.js": "https://bhagyashreekarale.github.io/csb-vly1r/static/js/main.8ddb15e5.chunk.js",
+    "main.js.map": "https://bhagyashreekarale.github.io/csb-vly1r/static/js/main.8ddb15e5.chunk.js.map",
+    "runtime-main.js": "https://bhagyashreekarale.github.io/csb-vly1r/static/js/runtime-main.99fe9511.js",
+    "runtime-main.js.map": "https://bhagyashreekarale.github.io/csb-vly1r/static/js/runtime-main.99fe9511.js.map",
+    "static/js/2.4f19d030.chunk.js": "https://bhagyashreekarale.github.io/csb-vly1r/static/js/2.4f19d030.chunk.js",
+    "static/js/2.4f19d030.chunk.js.map": "https://bhagyashreekarale.github.io/csb-vly1r/static/js/2.4f19d030.chunk.js.map",
+    "index.html": "https://bhagyashreekarale.github.io/csb-vly1r/index.html",
+    "static/css/main.4e2da532.chunk.css.map": "https://bhagyashreekarale.github.io/csb-vly1r/static/css/main.4e2da532.chunk.css.map",
+    "static/js/2.4f19d030.chunk.js.LICENSE.txt": "https://bhagyashreekarale.github.io/csb-vly1r/static/js/2.4f19d030.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99fe9511.js",
+    "static/js/2.4f19d030.chunk.js",
+    "static/css/main.4e2da532.chunk.css",
+    "static/js/main.8ddb15e5.chunk.js"
+  ]
+}

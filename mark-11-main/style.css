@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+  margin-top: 4rem;
+  /* background-color: var(--primary-dark); */
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 50pt;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.container {
+  width: 500px;
+  margin-left: 620px;
+}
+
+input,
+label {
+  margin: 1rem;
+  font-size: 20pt;
+  display: block;
+}
+
+input {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+#check-number {
+  font-size: 20pt;
+  display: block;
+  /* margin-top: 2rem; */
+  margin-left: 220px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  color: black;
+  border-color: black;
+  border-width: medium;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+
+#output-box{
+  margin: auto;
+  font-size: 20pt
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+#toggle{
+  height: 40px;
+  width: 190px;
+  margin-left:820px;
+  border-radius: 1rem;
+}
+
+footer {
+     /* margin-top: 10rem; */
+     bottom: 2rem;
+     position: fixed;
+     margin-left: 40px; 
+     /*margin-right: 90px; */
+     /* background-color: var(--primary); */
+     /* color: black; */
+     text-align: center;
+     border-top: 1px solid white;
+ }
+ 
+ footer p {
+    
+     /* margin-left: 7rem;
+     margin-right: 7rem; */
+     font-size: 16pt;
+ }
+ 
+ footer h1 {
+     /* color: black; */
+     font-size: 40pt;
+     text-align: center;
+ }
+
+ .links {
+     /* padding-bottom: 1rem;
+     font-weight: bolder;
+     font-size: 17pt; */
+     color: black;
+     text-decoration: none;
+ 
+ }

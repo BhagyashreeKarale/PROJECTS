@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+	--primary-color: #04d9ff;
+	--background-color:#5F9EA0;
+	--text-color: #f9fafb;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin-left: 900px;
+	/* margin: auto; */
+    /* padding: auto; */
+	/* background-color: white; */
+}
+
+.heading {
+	margin-left: 850px;
+	/* padding-top: 1rem; */
+	text-align:center;
+	font-size: 50pt;
+	color: white;
+	margin-bottom: 2rem;
+}
+
+.quiz-container {
+	margin-left: 900px;
+	padding: 2rem;
+	border: 2px solid var(--primary-color);
+	border-radius: 0.5rem;
+	margin: 1rem 0;
+}
+
+.quiz-container p {
+	font-size: 17pt;
+	margin-bottom: 1rem;
+	color: var(--background-color);
+}
+
+.quiz-container label {
+	font-size: 15pt;
+	margin-right: 0.5rem;
+	color: var(--background-color);
+}
+
+.angle-container , .side-container{
+	/* border-color: var(--background-color); */
+	width: 90%;
+	/* margin: auto;*/
+    padding: auto; 
+	background-color: black;
+	margin-left: 900px;
+	/* margin-bottom: 10rem; */
+}
+
+h2{
+	margin-left: 850px;
+
+}
+
+.formula{
+	color: var(--background-color);
+	border: 2px solid var(--primary-color);
+	text-align: center;
+	padding: 0.5rem;
+	width: 90%
+}
+
+.btn {
+	padding: 0.5rem;
+	background: var(--background-color);
+	color: var(--text-color);
+	border: 1px solid var(--primary-color);
+	border-radius: 0.25rem;
+	width: 50%;
+	margin-left: 25%;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+}
+
+.output {
+	color: #B3DEE5;
+	text-align: center;
+	margin: 2rem 0;
+	margin-left: 850px;
+}
+
+.input-container {
+	color: var(--text-color);
+	margin: 1rem 0;
+}
+
+.input-container input {
+	font-weight: bold;
+	padding: 0.5rem;
+	font-size: 1rem;
+	width: 90%;
+	/* margin: 0.5rem; */
+}
+
+/* .formula {
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	padding: 0.5rem;
+	border: 2px solid var(--primary-color); */
+/* } */
+
+nav {
+	background: var(--background-color);
+	padding: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+a {
+	text-decoration: none;
+	color: var(--text-color);
+	padding: 0.5rem;
+	font-weight: 1000;
+	font-size: 1rem;
+}
+
+.item-active {
+	font-size: 20px;
+	font-weight: bolder;
+	background-color: black;
+}
+
+@media only screen and (min-width: 600px) {
+	.angle-container,
+	.container,
+	.formula {
+		width: 50%;
+	}
+}
+
+.sub{
+	margin:auto;
+	color: var(--background-color);
+}
+
+
+
+  
+
+body{
+	background-image:url("/bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+#hypotenuse-output, #area-output{
+	padding-bottom: 32rem;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	padding: 1rem;
+	color: white;
+}
+
+#is-triangle-output-sides{
+	padding-bottom: 6rem;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #e74514;
+}
+
+body {
+
+  background-image: url('/images/bdayPalindrome.jpg');
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover; 
+    font-family: 'Viaoda Libre', cursive;  
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+main {
+    margin-top: 10rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 40pt;
+  margin: 2rem;
+}
+
+.input-label {
+  display: block;
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+.input {
+  font-size: 15pt;
+  outline: #fff;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+#show-btn {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+#result {
+    color: #e74514;
+
+  font-size: x-large;
+  margin: 2rem 0;
+}
+
+
+footer {
+    font-weight: "bold";
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+    background-color: white;
+    font-weight:900;
+  font-size: large;
+  text-align: center;
+}
+
+
+
+ a,
+img,
+li {
+  display: inline;
+}
+
+
+.container{
+    margin-left: 80px;
+    padding-top: 30rem;
+}
